@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunterpedia | Fandom</title>
+    <link rel="stylesheet" href="hunter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/165f0c56db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <button class="sign-in-btn">SIGN IN</button>
+        <button class="register-btn"><i class="fa-regular fa-user" style="color:#fff"></i> REGISTER</button>
+        <br>
+        <br>
+        <br><br>
+        <div class="header-container">
+        <div class="header-img">
+            <img src="https://images-ext-2.discordapp.net/external/lYr3UTw8Ii0KG-JWM8f7UowP2MuUqUzAwkNoctRUsvA/%3Fcb%3D20210605181932/https/static.wikia.nocookie.net/hunterxhunter/images/e/e6/Site-logo.png/revision/latest?width=375&height=97">
+        </div>
+        <div class="header-text">
+            <h1 style="font-weight: 500;">Hunterpedia</h1>
+            <ul>
+                <li><i class="fa-solid fa-book-open-reader" style="color: #ffffff;"></i> EXPLORE <i class="fa-solid fa-sort-down"></i></li>
+                <li>MEDIA <i class="fa-solid fa-sort-down"></i></li>
+                <li>CHARACTERS <i class="fa-solid fa-sort-down"></i></li>
+                <li>WORLD <i class="fa-solid fa-sort-down"></i></li>
+                <li>NEN <i class="fa-solid fa-sort-down"></i></li>
+            </ul>
+        </div>
+
+        <div class="ads">
+            <div class="pages" style="color: white;"><span style="font-size: 18px;color: white;">2,538</span> PAGES</div>
+            <div class="btns">
+                <button class="btn" id="search-btn">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #eff1f6;"></i>
+                </button>
+                <button class="btn">
+                    <i class="fa-brands fa-rocketchat" style="color: #ffffff;"></i>
+                </button>
+                <button class="btn" id="dark-theme-btn">
+                    <i class="fa-regular fa-moon" style="color: #ffffff;"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="body-container">
+        <div class="body-header">
+            <div style="font-size: 40px;padding-top: 20px;">Home</div>
+            <div>
+                <select>
+                    <option>English</option>
+                    <option>هانتربيديا</option>
+                    <option>Cestina</option>
+                    <option>Deutsch</option>
+                    <option>Espanol</option>
+                    <option>Francais</option>
+                    <option>Bahasa Indonesia</option>
+                    <option>Italiano</option>
+                    <option>Japanses</option>
+                    <option>Korean</option>
+                    <option>Bahasa Melayu</option>
+                    <option>Polski</option>
+                    <option>Portugese</option>
+                    <option>Chinese</option>
+                </select>
+                <br>
+                <button class="view-src-btn"><i class="fa-solid fa-lock" style="color:#337800;"></i> VIEW SOURCE</button>
+                <button class="more-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="left">
+                <br>
+                <div class="slideshow-container">
+                    <div class="slide">
+                        <img src="https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2021/03/Hunter-x-Hunter-1024x600.jpg?resize=1024%2C600&ssl=1">
+                        <div class="caption">
+                            <p>The Hunters</p>
+                            Meet the hunters!<br>
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="https://a-static.besthdwallpaper.com/hunter-x-hunter-hunters-wallpaper-3840x2160-76029_54.jpg">
+                        <div class="caption">
+                            <p>Nen</p>
+                            Everything you need to know about Nen!<br>
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1133679532361130074/hunter-x-hunter-hunters-silhouette-qazr6z8pzavxfcai.png">
+                        <div class="caption">
+                            <p>1999 anime adaption</p>
+                            The hard-to-forget original anime broadcast ...
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="https://ecdn.game4v.com/g4v-content/uploads/2022/12/30110616/T%C3%A1c-gi%E1%BA%A3-Hunter-x-Hunter-1-game4v-1672373175-54.jpg">
+                        <div class="caption">
+                            <p>2011 anime adaption</p>
+                            Time to 'hunterize' your self with brand new broadcast<br>
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                  </div>
+
+                  <div class="text" style="text-align: center;">
+                    <h3 style="text-align: center;">Welcome to Hunterpedia</h3>
+                    <p style="text-align: center;">We are currently housing <a href="">2,538</a> articles, and <a href="">26,725</a> files. We need 
+                        YOUR help expanding and adding articles to the wiki!</p>
+                    <hr>
+                    <p style="font-size: 11px;"><a href="">NEW PAGES</a> | <a href="">WIKI TUTORIAL</a> | <a href="">HELP PAGES</a></p>
+                    <a href=""><button class="page-btn">COMMUNITY PAGE</button></a>
+                    <hr>
+                    If you're new to Wikia, before editing please use the above links and read over Hunterpedia's <a href="">Policies and Guidelines </a>
+                    to get started. This is to ensure a smooth and fun experience on the wiki.<br>
+                    If you already have editing experience, and you have an article relating to <b><a href="">Hunter × Hunter</a></b> to contribute, use the box below to create it:<br>
+                    <input type="text">
+                    <br>
+                    <button class="create-btn">CREATE PAGE</button><br>
+                    <p style="font-size: 18px;text-align: right;">Thank You!</p>
+                  </div>
+
+                  <div class="about">
+                    <div class="subheader abt">About Hunter x Hunter</div>
+                    <div class="divider"></div>
+                    <div class="head">
+                    <p><b><a href="">Hunter x Hunter</a></b> (ハンター×ハンター, <i>Hantā Hantā</i>), pronounced "Hunter Hunter", is a 
+                        Japanese manga series written and illustrated by <a href="">Yoshihiro Togashi</a> with two anime adaptations. 
+                        The first chapter of the Hunter × Hunter manga series was published in March 1998, in <i>Weekly Shōnen Jump</i>.</p>
+                    <img src="https://media.discordapp.net/attachments/1110555331492335617/1133698079783141386/images-removebg-preview.png?width=450&height=193"> 
+                    </div>
+                    <br>
+                    The story of Hunter × Hunter focuses on a young boy named <a href="">Gon Freecss</a>, who one day discovers that the father he has always been told was dead is 
+                    alive and well. He learns that his father, <a href="">Ging Freecss</a>, is a legendary <a href="">Hunter</a>. Despite the fact that his father abandoned Gon with his relatives 
+                    in order to pursue his dreams, Gon becomes determined to follow his father's footsteps, pass the <a href="">Hunter Exam</a>, and eventually find his father to prove 
+                    himself as a Hunter in his own right.
+                  </div>
+                  <br>
+                  <div class="characters">
+                    <div class="subheader char">Characters</div>
+                    <div class="divider"></div>
+                    <br>
+                    <div class="images">
+                        <div class="img">
+                            <img src="https://media.discordapp.net/attachments/1110555331492335617/1133700578749460570/Gon_Freecss_GI_Portrait.webp?width=150&height=150">
+                            <p class="name">Gon</p>
+                        </div>
+                    </div>
+                    
+                    
+                  </div>
+                  <br>
+                  <div class="article">
+                    <div class="subheader article1">Featured Article</div>
+                    <div class="divider"></div>
+                    <h3 style="color: #337800;">Mereum</h3>
+                    <div class="article-col">
+                    <div><p><b>Meruem</b> was the most powerful offspring of the <a href="">Chimera Ant Queen</a>. He was known as the King of the <a href="">Chimera Ants</a>. 
+                    He was initially seen as a cruel and violent leader. The Queen's intention to give birth to a perfect offspring was 
+                    reflected in Meruem's mentality, with the Ant being haughty towards all. Born as the ultimate biological weapon, his 
+                    physical power is only matched by an unparalleled intellect. Meruem was born with an exceptional amount of aura, which 
+                    soon surpassed even that of the <a href="">Royal Guards</a>. By feeding on Nen users, he increased the size of his aura even further.
+                    </p>
+                    </div>
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWIpigiFDCn7hZfQd-Iyly6zKhIveJeRbYh318Pg8_krtUxetR">
+                    </div>
+                    <a href="" style="float: right;"><i>Read more...</i></a>
+                  </div>
+                  <br><br><br>
+                  <div class="spoiler">
+                    <div class="subheader abt">Latest Manga Chapter</div>
+                    <div class="divider"></div>
+                    <h2 style="color:red;">Spoiler Alert! Read at your own risk!</h2>
+                    <div class="spoiler-col">
+                        <div class="spoiler-p">
+                            <h3 style="color: #337800;text-align: center;">Chapter 400 - Secrecy</h3>
+                            <p>Looking inside the laundry room, <a href="">Hinrigh</a> says that while it looks abandoned, he has a feeling people were there just a moment ago.
+                                 <a href="">Nobunaga</a> adds that it was the same with the hidden room and then realizes something, leaving Hinrigh confused. Nobunaga explains 
+                                 that if the <a href="">Heil-Ly</a> were expecting intruders to break through the walls, he should have assumed that their neighbors were working
+                                  with them. He adds that they used them to check for traps but blames himself for letting the Heil-Ly know that intruders were after them.</p>
+                        </div>
+                        <div>
+                            <img src="https://media.discordapp.net/attachments/1110555331492335617/1133762087135477790/image.png?width=200&height=300">
+                        </div>
+                  </div>
+                  <a href="" style="float:right;">Read the full summary...</a>
+                </div>
+
+                <div class="episode">
+                    <div class="subheader abt">Latest Anime Episode</div>
+                    <div class="divider"></div>
+                    <div class="episode-col">
+                        <div class="spoiler-p">
+                            <h3 style="color: #337800;text-align: center;">Episode 148 - Past x And x Future</h3>
+                            <p><a href="">Gon</a> climbs to the top of the <a href="">World Tree</a> where <a href="">Ging</a> is expecting him, and the two finally have a heart to heart talk. 
+                                In this occasion, Ging reveals his intentions to explore the world beyond the current boundaries known to mankind 
+                                and Gon tells him of all his adventures, while his friends keep following their separate ways, each one of them with 
+                                their own dreams and goals to pursue. During their talk, Gon remembers to give the double star hunter license <a href="">Kite</a> 
+                                gave him back to Ging.
+                            <br><br>
+                            The last episode, <a href="">Episode 148</a>, is up.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="slideshow-container-1">
+                                <div class="slide1">
+                                    <img src="https://images-ext-1.discordapp.net/external/ExP6trm26NJ0CWLdniSWBaL_r-6XvjwmvKVxRA8O4hA/https/i.pinimg.com/564x/92/c2/73/92c2738e3e5046aadc3cc6f622d714dc.jpg?width=846&height=475">
+                                    <div class="caption1">
+                                        Gon and Ging view atop the tree.
+                                    </div>
+                                </div>
+            
+                                <div class="slide1">
+                                    <img src="https://images-ext-1.discordapp.net/external/wLkLMOwwJ5kiaGT-TwnCYjTZETDZUnZFZNbSySQoKRc/https/static0.cbrimages.com/wordpress/wp-content/uploads/2022/02/Gon-and-Ging.jpg?width=1440&height=720">
+                                    <div class="caption1">
+                                        Ging and Gon exchanging stories
+                                    </div>
+                                </div>
+            
+                                <div class="slide1">
+                                    <img src="https://images-ext-1.discordapp.net/external/r0g5ZlpLh9wrxQH98G7RzpplJ0JFczlWNKaBDtjtVv8/https/i.pinimg.com/originals/33/e5/4d/33e54de25ecc28462b7ff648428cdf16.jpg?width=1101&height=733">
+                                    <div class="caption1">
+                                        Gon gives Ging Hunter license pack
+                                    </div>
+                                </div>
+            
+                                <div class="slide1">
+                                    <img src="https://ecdn.game4v.com/g4v-content/uploads/2022/12/30110616/T%C3%A1c-gi%E1%BA%A3-Hunter-x-Hunter-1-game4v-1672373175-54.jpg">
+                                    <div class="caption1">
+                                        Gon climbs the World's biggest tree
+                                    </div>
+                                </div>
+                                <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+                                <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+                            </div>
+                            <p class="slide1-text">1/4</p>
+                        </div>
+                  </div>
+                  <a href="" style="float:right;">Read the full summary...</a>
+                </div>
+                <br><br><br>
+                <div class="video-container">
+                    <div class="subheader media">Featured media</div>
+                    <div class="divider"></div>
+                    <a href=""><h2 style="color:red; text-align: center;">"Hunter × Hunter Greed Adventure"</h2></a>
+                    <iframe width="460" height="255" src="https://www.youtube.com/embed/MnOGx1LdIqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </div>
+                <br><br><br>
+                <div class="manga-container">
+                    <div class="subheader media">Affiliated Sites</div>
+                    <div class="divider"></div>
+                    <div class="img-holder">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134111093225164860/HxH-RPG-banner.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134111150246727780/HxH_answers_logo.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134111330002026536/Wiki-wordmarkgantz.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112562062041128/Heoric_Legend_of_Arslan_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112562368229386/Jojo_Wordmark.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112562754101318/Wiki-wordmarkberserk.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112563169349632/Toriko_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112885048619089/Black_Bullet_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112885287690271/Rave_Master_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112885585494128/Code_Geass_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112886067834900/Vinland_Saga_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112886336266311/Shingeki_no_kyojin_logo.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134112886596317204/Shokugeki_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113086673002657/Strike_the_Blood_Logo_Site-logo.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113087029510144/Boku_no_Hero_Academia_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113087344099479/Owari_no_Seraph_Wiki.webp">
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134113087897739274/Subaru_wiki.webp?width=300&height=69">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113088296189992/Overlord_Wiki_1.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113088975675392/Banana_Fish_Wiki-wordmark.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113089516748921/Reddit_Mark_OnWhite_1.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113090544353320/Unbreakable_Machine-Doll_Logo_Site-logo.webp">
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134113431860035684/Kuroshitsuji_Wiki.webp?width=300&height=78">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113432069738507/FT_Wiki_wordmark.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113432346578975/Coppelion_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113432560484382/Pandora_Hearts_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113432820518972/Terraformars_Wiki_Logo.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113433088970752/Blue_Exorcist_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113535467733132/Fire_Brigade_of_Flames_wiki.webp">
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134113535677444106/Chihayafuru_Wiki.webp?width=300&height=78">
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134113536050745354/Robot_x_laserbeam_wiki.webp?width=300&height=78">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113534578544761/Noblesse_Wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113534813417472/Wiki-wordmark_kk.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113535077666857/World_Trigger_Wiki.webp">
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134113533496414338/Iron_Knight_wiki.webp?width=300&height=78">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113533945200670/God_of_Highschool_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113534213632010/Ranma_wiki.webp">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134113534213632010/Ranma_wiki.webp">
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134113533232168970/Boku_no_Hero_Academia_Wiki.webp?width=300&height=78">
+                    </div>
+                    <p style="font-size: 20px;text-align: center;">Want to affiliate with Hunterpedia? <a href="">Contact me</a>.</p>
+                </div>
+            </div>
+
+            <div class="right" >
+                <div class="free-container"  >
+                    <div class="subheader free">Free Hunter x Hunter</div>
+                    <div class="divider" style="width: 300px;"></div>
+                    <div class="free-btns">
+                    <button class="manga-btn free-btn toggle-btn" data-id="manga">Manga</button>
+                    <button class="anime-btn free-btn" data-id="anime">2021 anime</button>
+                    </div>
+                    <hr>
+                    <article class="free-content">
+                        <div class="content show" id="manga">
+                            <img src="https://media.discordapp.net/attachments/1125057253297369139/1133776210766340106/Mangaplus_icon.webp?width=289&height=289">
+                            <br>
+                            <p style="text-align: center;font-size: 13px;">MANGA Plus is an official service that provides the first 3 and last 3 H×H chapters. Releases are simultaneous to those in Japan.</p>
+                        </div>
+
+                        <div class="content" id="anime">
+                            <img src="https://media.discordapp.net/attachments/1125057253297369139/1133777751220961390/Crunchyroll_logo.webp?width=300&height=300">
+                            <br>
+                            <p style="text-align: center;font-size: 13px;">Crunchyroll is an official service that provides all episodes of the H×H 2011 anime adaptation.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="feed">
+                    <div class="feed-header">
+                        <div class="subheader free" style="margin-right: 5px;border: 2px solid black;"><a href="" class="feedh">News Feed</a></div>
+                        <div class="subheader free" style="border: 2px solid black;"><a href="">Twitter Source</a></div>
+                    </div>
+                    <div class="divider" style="width: 300px;border: 2px solid black;"></div>
+                    <p style="font-size: 12px;text-align: center;"><i><b>Disclaimer: </b>@HxHSource is not a legally official HxH source or a Hunterpedia's extension. Credits for the content belong to its owner</i></p><br>
+                    <div class="tweets-container">
+                        <div class="tweets-header">Tweets from @HxHSource</div>
+                        <div class="tweets-content">
+                            <div class="tweets">
+                                <div class="small-header">
+                                    <div class="avatar">
+                                        <img src="https://images-ext-1.discordapp.net/external/31ucIxh0z0OXI49_O7oo_qRTGYPteP8OcUMlO3_i4iQ/%3Fq%3Dtbn%3AANd9GcSprVPRhm3RiS3fp4Kv2lQZ4Eh9G-wIv1WYOg_qpSz71NXfzfoB/https/encrypted-tbn3.gstatic.com/images?width=40&height=40">
+                                    </div>
+                                    <div>
+                                        <p class="name">Hunter <i class="fas fa-times" style="color: #e70d23;"></i> Hunter</p>
+                                        <p class="date">@HxH... .<a href="">Dec 26,2022</a></p>
+                                    </div>
+                                    <div class="twitter-icon">
+                                        <i class="fab fa-twitter" style="color: #0bc9f9;font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                                <div class="small-body">
+                                NEW Hunter x Hunter Promotional Video<br><br>
+                                <img src="https://pbs.twimg.com/ext_tw_video_thumb/1607301775085674499/pu/img/-4uzzmk-6hRi1f4-.jpg" width="100%" style="border-radius: 10px;">
+                                <div class="play">
+                                    <a href=""><button class="play-btn"><i class="fas fa-play-circle" style="color: #0bc9f9;"></i></button></a>
+                                </div>
+                                </div>
+                                <div class="reaction">
+                                    <span class="cmt"><i class="far fa-comment" style="font-size: 20px;margin-right: 5px;"></i> 328</span> <span class="love"><i class="far fa-heart" style=" font-size: 15px; margin-right: 5px;margin-left: 15px;"></i>32k</span> 
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quote" style="width: 300px;margin-top: 40px;">
+                    <div class="subheader free">Featured Quote</div>
+                    <div class="divider" style="width: 300px;"></div>
+                    <div class="quote-content">
+                        <p><i>"You <b>never</b> know what your adversary's ability is. A slight hesitation 
+                        can cause a fatal turnabout. The outcome is always a fluctuation.
+                    That's the essence of Nen combat!"</i></p>
+                    <br>
+                    - <a href="" style="color:#4cd137;">Morel Mackernasey</a> to <a href="" style="color: #4cd137;">Killua Zoldyck</a> in "<a href="" style="color: #4cd137;">Light and Shadow</a>"
+                    </div>
+                </div>
+                <br><br><br>
+
+                <div class="volume" style="width: 300px;margin-top: 60px;">
+                    <div class="subheader free">Latest Manga Volume Cover</div>
+                    <div class="divider" style="width: 300px;"></div>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4JsLS3c5YbwtpzLk52f_taNhv9PlDDLbYjtIgKragLulBapTG">
+                </div>
+                <br><br>
+
+                <div class="random" style="width: 300px;">
+                    <div class="subheader free">Random Image</div>
+                    <div class="divider" style="width: 300px;"></div>
+                    <button class="refresh-btn"><i class="fas fa-long-arrow-alt-up" style="color: #337800;"></i> REFRESH <i class="fas fa-long-arrow-alt-down" style="color: #337800;"></i></button><br>
+                    <img src="https://media.discordapp.net/attachments/1125057253297369139/1134028711595868180/Kite_29.webp?width=240&height=240">
+                </div>
+                <br><br>
+                <div class="blogs" style="width: 300px;">
+                    <div class="subheader free">User Blogs</div>
+                    <div class="divider" style="width: 300px;"></div>
+                    <button class="refresh-btn"><i class="fas fa-long-arrow-alt-up" style="color: #337800;"></i> REFRESH <i class="fas fa-long-arrow-alt-down" style="color: #337800;"></i></button><br>
+                    <div class="blog-container">
+                        <h2 style="font-weight: 500;font-size: 25px;margin-bottom: -5px;">Blog posts:</h2>
+                        <hr>
+                        <div class="blog">
+                            <div class="blog-avatar">
+                                <img src="https://media.discordapp.net/attachments/1125057253297369139/1134032079873658880/phpP7mTtc.webp?width=42&height=42">
+                                <p class="blog-name">Teapot cutie</p>
+                                <p class="blog-date">18 June</p>
+                                <p class="blog-cmt"><i class="far fa-comment"></i> 0</p>
+                            </div>
+                            <div class="blog-content">
+                                <h2>Notes to self</h2>
+                                <p>Tasks finished:</p>
+        
+                                <ul>
+                                    <li>Adding gallery art</li>
+                                    <li>Made gallery page for game</li>
+                                    <li>Translating commercial</li>
+                                    <li>Translating relationship chart</li>
+                                    <li>Unstubbed pages on Heroes wiki</li>
+                                    <li>Made page for Villains wiki</li>
+                                    <li>Unstubbed pages on RoR wiki</li>
+                                    <li>Finished philosophy paper</li>
+                                    <li>Filled out weekly fourm</li>
+                                    <li>Found clean art for Promare</li>
+                                    <li>Created new code to use (ciph…</li>
+                                </ul>
+                                <a href="">Read Full Post</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <div class="blog-avatar">
+                                <img src="https://media.discordapp.net/attachments/1125057253297369139/1134038728273309716/file.webp?width=42&height=42">
+                                <p class="blog-name">Damage3245</p>
+                                <p class="blog-date">23 November 2022</p>
+                                <p class="blog-cmt"><i class="far fa-comment"></i> 1</p>
+                            </div>
+                            <div class="blog-content">
+                                <h2>To-Do List</h2>
+                            
+        
+                                <ul>
+                                    <li>Complete the Appearances project.
+                                    <ul>
+                                        <li>Add Appearance templates to characters.</li>
+                                        <li>Create Appearance templates for Chimera Ant arc characters.</li>
+                                    </ul></li>
+                                    <li>Investigate other sections that could be added to Character pages.</li>
+                                    <li>Prepare outline for Nen ability pages.</li>
+                                    <li>Investigate feasibility of Battle/Event pages.</li>
+                                </ul>
+                                <a href="">Read Full Post</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <div class="blog-avatar">
+                                <img src="https://media.discordapp.net/attachments/1125057253297369139/1134042074912657408/2FavatarRL9yVc.webp?width=42&height=42">
+                                <p class="blog-name">Greenolf65</p>
+                                <p class="blog-date">13 November 2022</p>
+                                <p class="blog-cmt"><i class="far fa-comment"></i> 1</p>
+                            </div>
+                            <div class="blog-content">
+                                <h2>Nen of the Zodiac: a detailed analysis</h2>
+                                <p>I know there are already blogs on this theme, but this will be a more detailed look at Nen's abilities.
+                                    <br><br>
+                                    Features of the franchise1. Let's start with the fact that Nen types are translated by association, not originally.
+                                    <br><br>
+                                    The enhancement type is the only one that is correctly translated. All others hav…
+                                </p>
+                                <a href="">Read Full Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <a href="">See more <i class="fas fa-arrow-right" style="color: #337800;"></i></a>
+            </div>
+        </div>
+
+        <div class="site">
+            <div class="site-header">
+                <div class="site-logo">
+                    <img src="https://media.discordapp.net/attachments/1110555331492335617/1134118829564370964/Shonen-Jump-logo.webp?width=255&height=255">
+                </div>
+                <div class="site-header-text">
+                    <a href="" style="font-size: 16px;font-weight: 600;font-style: italic;">Weekly Shonen Jump Wikis</a>
+                    <br>
+                    <a href="">One Piece </a><i class="fas fa-circle"></i> <a href="">Hunter x Hunter</a><i class="fas fa-circle"></i> <a href="">My Hero Academia</a><i class="fas fa-circle"></i>
+                    <a href="">Black Clover </a> <i class="fas fa-circle"></i> <a href="">Jujutsu Kaisen</a> <i class="fas fa-circle"></i> <a href="">Mission: Yozakura</a><i class="fas fa-circle"></i>
+                    <a href="">Family</a> <i class="fas fa-circle"></i><a href="">Undead Unluck</a><i class="fas fa-circle"></i> <a href="">Me & Roboco</a><i class="fas fa-circle"></i><a href=""> Burn the</a>
+                    <a href="">Witch</a><i class="fas fa-circle"></i><a href="">Sakamoto Days</a><i class="fas fa-circle"></i><a href="">The elusive Samurai</a><i class="fas fa-circle"></i> <a href="">Witch</a>
+                    <a href="">Watch</a><i class="fas fa-circle"></i><a href="">Blue Box</a><i class="fas fa-circle"></i><a href="">Akane-banashi</a><i class="fas fa-circle"></i><a href=""> RuriDragon</a><i class="fas fa-circle"></i>
+                    <a href="">The Ichinose Family's Deadly Sins</a><i class="fas fa-circle"></i> <a href="">Cipher Academy</a>
+                    <i class="fas fa-circle"></i><a href="">Fabricant 100</a><i class="fas fa-circle"></i> <a href="">Tenmaku Cinema</a><i class="fas fa-circle"></i> <a href=""> Kill blue</a><i class="fas fa-circle"></i>
+
+                </div>
+            </div>
+            <div class="site-body">
+                <p style="text-align: center;"><b>Ongoing Anime Spotlights </b></p>
+                <div class="spotlight-grid">
+                    <div>
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134118828285108384/Wiki-wordmark_4.webp">
+                        <br>
+                        <a href="" style="text-align: center;">Ayakashi Triangle</a>
+                    </div>
+
+                    <div>
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134118829035892756/Wiki-wordmark_1.webp?width=190&height=49">
+                        <br>
+                        <a href="" style="text-align: center;">Black Clover: Sword of the Wizard King</a>
+                    </div>
+
+                    <div>
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134118828507410592/Wiki-wordmark_3.webp">
+                        <br>
+                        <a href="" style="text-align: center;">Bleach: Thousand-Year Blood War - The Seperation</a>
+                    </div>
+
+                    <div>
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134118829274960103/Wiki-wordmark.webp?width=190&height=49">
+                        <br>
+                        <a href="" style="text-align: center;">Jujutsu Kaisen 2nd Season</a>
+                    </div>
+
+                    <div>
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134118828784230560/Wiki-wordmark_2.webp?width=187&height=60">
+                        <br>
+                        <a href="" style="text-align: center;">One Piece</a>
+                    </div>
+
+                    <div>
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134118828054417418/Site-logo.webp?width=103&height=75">
+                        <br>
+                        <a href="" style="text-align: center;">Rurouni Kenshin: Meiji Kenkaku Romantan (2023)</a>
+                    </div>
+                </div>
+                
+                <p style="text-align: center;"><b>Upcoming Anime Spotlights</b> <button class="expand-btn1">[Expand]</button></p>
+                <br>
+                <div class="upcoming-container">
+                    
+                </div>
+                <button class="expand-btn">[Expand]</button>
+                <div class="link-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="wiki-container">
+            <div class="wiki">
+                <div style="margin-top: 20px;text-align: center;">
+                    <img src="https://media.discordapp.net/attachments/1125057253297369139/1134133083768098906/Wiki.webp?width=105&height=75">
+                    <br>
+                    <a href="">Discuss Wiki List Spotlight Request</a>
+                </div>
+
+                <div class="film-list">
+                    <p><b>Summer Season 2023 Anime Wikis</b></p>
+                    <b>TV anime</b>
+                    <br>
+                    <ul>
+                    <li><a href=""><b>Am I Actually the Strongest</b></a></li>
+                    <li><a href=""><b>Atelier Ryza: Ever Darkness & the Secret Hide out</b></a></li>
+                    <li><a href=""><b>Ayaka</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    <li><a href=""><b>BanG Dream! It's MyGO!!!!!!</b></a></li>
+                    </ul>
+                    <p><b>TV (Multiseason)</b></p>
+                    <ul>
+                        <li><a href=""><b>Ao no Orchestra</b></a></li>
+                        <li><a href=""><b>Ayakashi Triangle</b></a></li>
+                        <li><a href=""><b>Hirogaru Sky! Precure</b></a></li>
+                        <li><a href=""><b>Maō Gakuin no Futekigōsha: Shijō Saikyō no Maō no Shiso, Tensei shite Shison-tachi no Gakkō e Kayō II</b></a></li>
+                        <li><a href=""><b>Mix: Meisei Story - Nidome no Natsu, Sora no Mukou e</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    </ul>
+                    <p><b>ONA</b></p>
+                    <ul>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    </ul>
+                    <p><b>OVA</b></p>
+                    <ul>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    </ul>
+                    <p><b>Specials</b></p>
+                    <ul>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    </ul>
+                    <p><b>Film</b></p>
+                    <ul>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                        <li><a href=""><b>NieR:Automata Ver1.1a</b></a></li>
+                    </ul>
+                    <a href="" style="font-size: 8px;">[Edit this list]</a>
+                </div>
+
+                <div class="july">
+                    <p style="text-align: center;"><a href="">Anime/ Manga Hub</a> <b>July <a href="">Spotlights:</a></b></p>
+                    <div class="july-spotlight">
+                        <div >
+                            <img src="https://media.discordapp.net/attachments/1110555331492335617/1134145388144754728/Site-logo.webp?width=217&height=57">
+                            <br>
+                            <a href="" style="text-align: center;">Symphogear</a>
+                        </div>
+                        <div>
+                            <img src="https://media.discordapp.net/attachments/1110555331492335617/1134146200191377479/Wiki-wordmark.webp?width=217&height=55">
+                            <br>
+                            <a href="" style="text-align: center;">More Than a Married Couple, But Not Lovers</a>
+                        </div>
+                        <div>
+                            <img src="https://media.discordapp.net/attachments/1110555331492335617/1134145387834388510/Site-logo_1.webp?width=58&height=75" width="30%" style="margin-left: 40px;">
+                            <br>
+                            <a href="" style="text-align: center;">Zombie 100</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="">All</a></li>
+                        <li><a href="">Action</a></li>
+                        <li><a href="">Adventure</a></li>
+                        <li><a href="">Comedy</a></li>
+                        <li><a href="">Fantasy</a></li>
+                        <li><a href="">Horror</a></li>
+                        <li><a href="">Mecha</a></li>
+                        <li><a href="">Mystery</a></li>
+                        <li><a href="">Romance</a></li>
+                        <li><a href="">Sci-fi</a></li>
+                        <li><a href="">Slice of Life</a></li>
+                        <li><a href="">Sports</a></li>
+                        <li><a href="">Supernatural</a></li>
+                        <li><a href="">Memes</a></li>
+                        <li><a href="">Funimation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-container">
+            <span style="font-size: 23px;font-weight: 500;">Categories</span>
+            <i class="fas fa-angle-down" style="color: #303236;float: right;font-size: 30px;"></i>
+            <div class="browse" style="margin-top: 10px;">
+
+            </div>
+            <hr>
+        </div>
+        <div class="language-container">
+            <span style="font-size: 23px;font-weight: 500;">Languages</span>
+            <i class="fas fa-angle-down fa-angle-down1" style="color: #303236;float: right;font-size: 30px;"></i>
+            <div class="language" style="margin-top: 10px;">
+                
+            </div>
+            <hr>
+        </div>
+        <br>
+        <p style="margin-left: 20px;">Community content is available under <a href="">CC-BY-SA unless otherwise noted.</a></p>
+        <div class="fandom-container">
+            <div class="fandom-header">
+                <h3>More Fandoms</h3>
+            </div>
+            <div class="fandom-body">
+                <a href="">Fantasy</a>
+            </div>
+        </div>
+
+        <div class="fan-feed-container">
+            <h1>Fan Feed</h1>
+            <div class="fan-feed-grid">
+                <div class="more-container grid grid1">
+                    <h2 style="padding-left: 20px;">More Hunterpedia</h2>
+                    <div class="list">
+                        <div class="ji">
+                    <div class="number">1</div> <div>Phantom Troupe</div>
+                    </div>
+                    <div class="ji">
+                    <div class="number">2</div> <div>Nen</div>
+                    </div>
+                    <div class="ji ji1">
+                    <div class="number">3</div> <div>Story Arcs</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="col1">
+                <img src="https://media.discordapp.net/attachments/1110555331492335617/1134423557015863389/Fandom_logo_2021_lockup_2.webp?width=927&height=232">
+                <h4>EXPLORE PROPERTIES</h4>
+                <ul>
+                    <li><a href="">Fandom</a></li>
+                    <li><a href="">Muthead</a></li>
+                    <li><a href="">Futhead</a></li>
+                    <li><a href="">Fanatical</a></li>
+                </ul>
+                <br>
+                <h4>FOLLOW US</h4>
+                <i class="fab fa-facebook-f" style="color:#f7f1e3;"></i>
+                <i class="fab fa-twitter" style="color:#f7f1e3;"></i>
+                <i class="fab fa-youtube" style="color:#f7f1e3;"></i>
+                <i class="fab fa-instagram" style="color:#f7f1e3;"></i>
+                <i class="fab fa-linkedin-in" style="color:#f7f1e3;"></i>
+                <ul>
+
+                </ul>
+            </div>
+            <div>
+                <h4>OVERVIEW</h4>
+                <ul>
+                    <li><a href="">What is Fandom</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Global Sitemap</a></li>
+                    <li><a href="">Local Sitemap</a></li>
+                </ul>
+            </div>
+            
+            <div class="col3">
+                <h4>COMMUNITY</h4>
+                <ul>
+                    <li><a href="">Community Central</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+                <br><br>
+                <br>
+                <h4>ADVERTISE</h4>
+                <ul>
+                    <li><a href="">Media Kit</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col4">
+                <h4>FANDOM APPS</h4>
+                <p>Take your favorite fandoms with <br>you and never miss a beat.</p>
+                <br>
+                <div class="footer-img">
+                    <div>
+                        <img src="https://media.discordapp.net/attachments/1110555331492335617/1134430952714686534/fandom-app-icon.webp?width=117&height=117">
+                    </div>
+                    <div class="app">
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134430952270077962/appStore.webp"><br>
+                        <img src="https://cdn.discordapp.com/attachments/1110555331492335617/1134430951900971169/googlePlay.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="end">
+        <div class="end-top">
+        <p style="text-align: center; font-size: 12px;">Hunterpedia is a FANDOM Anime Community.</p>
+        </div>
+        <div class="end-bottom">
+            <p style="text-align: center;"><a href="" style="font-size: 14px;font-weight: 700;color:#ffd32a;">VIEW MOBILE SITE</a></p>
+        </div>
+    </div>
+    <div class="left-bar">
+        <a href=""><img src="https://media.discordapp.net/attachments/1110555331492335617/1134479199101534278/80.png?width=80&height=80" style="margin-left: -5px;" width="90%"></a>
+        <p>FANDOM</p>
+        <i class="fas fa-search fa-hover"></i>
+        <br>
+        <i class="fas fa-rocket fa"></i>
+        <p>FAN CENTRAL</p>
+        <button class="beta-btn">BETA</button>
+        <br>
+        <i class="fas fa-gamepad fa"></i>
+        <p>GAMES</p>
+        <i class="fas fa-laugh fa"></i>
+        <p>ANIME</p>
+        <i class="fas fa-film fa"></i>
+        <p>MOVIES</p>
+        <i class="fas fa-tv fa"></i>
+        <p>TV</p>
+        <i class="fab fa-youtube fa"></i>
+        <p>VIDEO</p>
+        <div class="book">
+            <div class="ko">
+        <i class="fas fa-book fa fass"></i>
+        </div>
+        <div class="wiki-pop-up">
+            <div class="explore">
+                Explore wikis
+            </div>
+            <div class="community">
+                Community Central
+            </div>
+        </div>
+        </div>
+        
+        <p>WIKIS</p>
+        <i class="fas fa-plus" style=" color: #280033;"></i>
+        <h4>START A WIKI</h4>
+        <br>
+        <br>
+        <i class="far fa-user fa2" style=" color: #280033;"></i>
+    </div>
+
+    <div class="top-bar">
+        <div class="top-bar-img">
+            <img src="https://images-ext-2.discordapp.net/external/lYr3UTw8Ii0KG-JWM8f7UowP2MuUqUzAwkNoctRUsvA/%3Fcb%3D20210605181932/https/static.wikia.nocookie.net/hunterxhunter/images/e/e6/Site-logo.png/revision/latest?width=375&height=97">
+        </div>
+        <div>
+            <h3 style="color: white;">Hunterpedia</h3>
+        </div>
+        <div class="top-list">
+            <ul>
+                <li><i class="fa-solid fa-book-open-reader fa3" style="color: #ffffff;"></i> EXPLORE <i class="fa-solid fa-sort-down"></i></li>
+                <li>MEDIA <i class="fa-solid fa-sort-down"></i></li>
+                <li>CHARACTERS <i class="fa-solid fa-sort-down"></i></li>
+                <li>WORLD <i class="fa-solid fa-sort-down"></i></li>
+                <li>NEN <i class="fa-solid fa-sort-down"></i></li>
+            </ul>
+        </div>
+        <div class="btns1">
+            <button class="btn" id="search-btn">
+                <i class="fa-solid fa-magnifying-glass" style="color: #eff1f6;"></i>
+            </button>
+            <button class="btn">
+                <i class="fa-brands fa-rocketchat" style="color: #ffffff;"></i>
+            </button>
+            <button class="btn" id="dark-theme-btn">
+                <i class="fa-regular fa-moon" style="color: #ffffff;"></i>
+            </button>
+        </div>
+    </div>
+    <div class="page-icon">
+        <button class="big-btn"><i class="fa-solid fa-expand" style="color:#337800;"></i></button>
+        <button class="lock-btn"><i class="fa-solid fa-lock" style="color:#337800;"></i></button>
+    </div>
+    
+    <script src="hunter.js"></script>
+</body>
+</html>
